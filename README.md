@@ -4,6 +4,20 @@ A collection of **Bash scripts** that automate everyday Linux system-maintenance
 
 ---
 
+## 🟨 Novelty / Extension
+
+This project extends the original *"Bash Scripting Suite for System Maintenance"* capstone by adding:
+
+- 🕒 **Timestamped backups and logs** for version tracking  
+- 🧭 **Interactive menu interface** for easier user navigation  
+- ⚙️ **Error handling and success verification** in each script  
+- 🗂️ **Modular folder structure** (`scripts/`, `Backups/`, `screenshots/`)  
+- 🧾 **Documentation and screenshots** included for demonstration
+
+These enhancements improve automation, reliability, and presentation beyond the base capstone requirements.
+
+---
+
 ## 🚀 Features
 - **Automated Backup** – Copies your chosen directory (e.g., `Documents/`) into timestamped folders for quick restoration.  
 - **System Update & Cleanup** – Runs `apt update`, upgrades packages, removes leftovers, and logs everything.  
